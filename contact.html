@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="utf-8">
+	<title>Tastycipes</title>
+	<link href="css/_style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+</head>
+<body>
+<div id="header_wrapper">
+<header class="header">
+  <a href="" class="logo">Tastycipes</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="index.html">Головна</a></li>
+    <li><a href="portfolio.html">Рецепти</a></li>
+    <li><a href="contact.html">Контакт</a></li>
+  </ul>
+</header>
+</div>
+<div id="_main">
+    <h1>Відправте нам повідомлення</h1>
+	<div class="half left">
+    	 <div id="contact_form">
+                    <form method="post" name="contact" action="#">
+                        
+                        <label for="author">Ім'я</label> <input type="text" id="author" name="author" class="required input_field" />
+                        <div class="cleaner h10"></div>
+                        <label for="email">Email:</label> <input type="text" id="email" name="email" class="validate-email required input_field" />
+                        <div class="cleaner h10"></div>
+                        
+						<label for="subject">Тема:</label> <input type="text" name="subject" id="subject" class="input_field" />
+
+						<div class="cleaner h10"></div>
+        
+                        <label for="text">Повідомлення:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
+                        <div class="cleaner h10"></div>
+                        
+                        <input type="submit" value="Відправити" id="submit" name="submit" class="submit_btn left" />
+            	</form>
+        </div>   
+    </div>
+        
+
+    
+</div> <!-- END of main -->
+<div id="footer_wrapper">
+<div id="_footer">
+<div class="ft">
+Copyrighted by Vadym Shandurskyi 2020
+</div>
+</div>
+</div>
+</body>
+</html>
